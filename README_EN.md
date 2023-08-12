@@ -1,8 +1,8 @@
-[**🇨🇳中文**](./README.md) | [**🌐English**](./README_EN.md) | [**📖文档/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**❓提问/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**💬讨论/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussions)
+[**🇨🇳中文**](README.md) | [**🌐English**](README_EN.md) | [**📖文档/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**❓提问/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**💬讨论/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussions)
 
 <p align="center">
     <br>
-    <img src="./pics/banner.png" width="700"/>
+    <img src="pics/banner.png" width="700"/>
     <br>
 </p>
 <p align="center">
@@ -30,7 +30,7 @@ To promote open research of large models in the Chinese NLP community, this proj
 
 💡 The following image shows the actual experience effect of the 7B version model after local deployment (animation unaccelerated, tested on Apple M1 Max).
 
-![](./pics/screencast.gif)
+![](pics/screencast.gif)
 
 ----
 
@@ -93,7 +93,7 @@ The following table provides a basic comparison of the Chinese LLaMA and Alpaca 
 | inference_hf.py        | No additional startup parameters required                    | Add `--with_prompt` parameter when launching                 |
 | Known Issues           | If not controlled for termination, it will continue writing until reaching the output length limit.<sup>[2]</sup> | Current version of the model generates relatively shorter texts, being more concise.<sup>[2]</sup> |
 
-*[1] Templates are built-in for (llama.cpp/LlamaChat/[inference_hf.py](./scripts/inference_hf.py).*
+*[1] Templates are built-in for (llama.cpp/LlamaChat/[inference_hf.py](scripts/inference_hf.py).*
 
 *[2] If you encounter issues such as low-quality model responses, nonsensical answers, or failure to understand questions, please check whether you are using the correct model and startup parameters for the scenario.*
 
@@ -144,7 +144,7 @@ You can download all the above models in 🤗Model Hub, and use [🤗transformer
 
 **[2]** The reconstructed model is slightly larger than the original LLaMA (due to the expanded vocabulary); the 7B model is about 13G+.
 
-**[3]** After downloading, be sure to check whether the SHA256 of the ZIP file is consistent; for the full value, please see [SHA256.md](./SHA256.md).
+**[3]** After downloading, be sure to check whether the SHA256 of the ZIP file is consistent; for the full value, please see [SHA256.md](SHA256.md).
 
 **[4]** Merging steps for Alpaca-Plus are different from others, please refer to [wiki](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki/Manual-Conversion#multiple-lora-weights-merging-applicable-to-chinese-alpaca-plus)。
 
@@ -194,7 +194,7 @@ Related documentation has been moved to the project's >>> [📚GitHub Wiki](http
 
 ## System Performance
 
-In order to quickly evaluate the actual performance of related models, this project compared the effects of Chinese Alpaca-7B, Alpaca-13B, Alpaca-Plus-7B and Alpaca-Plus-13B on some common tasks given the same prompt. Reply generation is random and is affected by factors such as decoding hyperparameters and random seeds. The following related evaluations are not absolutely rigorous, and the test results are for reference only. Welcome to experience it yourself. For detailed evaluation results, please see [examples](./examples).
+In order to quickly evaluate the actual performance of related models, this project compared the effects of Chinese Alpaca-7B, Alpaca-13B, Alpaca-Plus-7B and Alpaca-Plus-13B on some common tasks given the same prompt. Reply generation is random and is affected by factors such as decoding hyperparameters and random seeds. The following related evaluations are not absolutely rigorous, and the test results are for reference only. Welcome to experience it yourself. For detailed evaluation results, please see [examples](examples).
 
 | 测试任务         | Samples | Alpaca-13B | Alpaca-Plus-7B | Alpaca-Plus-13B |
 | ---------------- | :----: | :--------: | :------------: | :-------------: |

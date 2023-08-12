@@ -1,8 +1,8 @@
-[**🇨🇳中文**](./README.md) | [**🌐English**](./README_EN.md) | [**📖文档/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**❓提问/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**💬讨论/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussions)
+[**🇨🇳中文**](README.md) | [**🌐English**](README_EN.md) | [**📖文档/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**❓提问/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**💬讨论/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussions)
 
 <p align="center">
     <br>
-    <img src="./pics/banner.png" width="700"/>
+    <img src="pics/banner.png" width="700"/>
     <br>
 </p>
 <p align="center">
@@ -30,7 +30,7 @@
 
 💡 下图是中文Alpaca-7B模型在本地CPU量化部署后的实际体验效果（GIF未加速，M1 Max下实测）。
 
-![](./pics/screencast.gif)
+![](pics/screencast.gif)
 
 ----
 
@@ -92,10 +92,10 @@ Facebook官方发布的[LLaMA模型禁止商用](https://github.com/facebookrese
 | llama.cpp             | 使用`-p`参数指定上文                                   | 使用`-ins`参数启动指令理解+聊天模式                          |
 | text-generation-webui |  不适合chat模式                              |    使用`--cpu`可在无显卡形式下运行，若生成内容不满意，建议修改prompt                                                          |
 | LlamaChat             | 加载模型时选择"LLaMA"                                  | 加载模型时选择"Alpaca"                                       |
-| [HF推理代码](./scripts/inference_hf.py) | 无需添加额外启动参数 | 启动时添加参数 `--with_prompt`        |
+| [HF推理代码](scripts/inference_hf.py) | 无需添加额外启动参数 | 启动时添加参数 `--with_prompt`        |
 | 已知问题              | 如果不控制终止，则会一直写下去，直到达到输出长度上限。<sup>[2]</sup> | 目前版本模型生成的文本长度相对短一些，比较惜字如金。可在指令中要求详细回答。<sup>[2]</sup> |
 
-*[1] llama.cpp/LlamaChat/[HF推理代码](./scripts/inference_hf.py)等已内嵌，无需手动添加模板。*<br/>
+*[1] llama.cpp/LlamaChat/[HF推理代码](scripts/inference_hf.py)等已内嵌，无需手动添加模板。*<br/>
 *[2] 如果出现了模型回答质量特别低、胡言乱语、不理解问题等情况，请检查是否针对场景使用了正确的模型和正确的启动参数。*
 
 
@@ -143,7 +143,7 @@ Facebook官方发布的[LLaMA模型禁止商用](https://github.com/facebookrese
 
 **[2]** 经过重构后的模型大小比同等量级的原版LLaMA大一些（主要因为扩充了词表）。
 
-**[3]** 下载后务必检查压缩包中模型文件的SHA256是否一致，请查看[SHA256.md](./SHA256.md)。
+**[3]** 下载后务必检查压缩包中模型文件的SHA256是否一致，请查看[SHA256.md](SHA256.md)。
 
 **[4]** Alpaca-Plus模型的合并方法略有不同，请参考[合并教程](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki/手动模型合并与转换#多lora权重合并适用于chinese-alpaca-plus)。
 
@@ -193,7 +193,7 @@ chinese_llama_lora_7b/
 
 ## 系统效果
 
-为了快速评测相关模型的实际表现，本项目在给定相同的prompt的情况下，在一些常见任务上对比测试了本项目的中文Alpaca-7B、中文Alpaca-13B、中文Alpaca-Plus-7B、中文Alpaca-Plus-13B的效果。生成回复具有随机性，受解码超参、随机种子等因素影响。以下相关评测并非绝对严谨，测试结果仅供晾晒参考，欢迎自行体验。详细评测结果请查看[examples目录](./examples)。
+为了快速评测相关模型的实际表现，本项目在给定相同的prompt的情况下，在一些常见任务上对比测试了本项目的中文Alpaca-7B、中文Alpaca-13B、中文Alpaca-Plus-7B、中文Alpaca-Plus-13B的效果。生成回复具有随机性，受解码超参、随机种子等因素影响。以下相关评测并非绝对严谨，测试结果仅供晾晒参考，欢迎自行体验。详细评测结果请查看[examples目录](examples)。
 
 | 测试任务         | 样例数 | Alpaca-13B | Alpaca-Plus-7B | Alpaca-Plus-13B |
 | ---------------- | :----: | :--------: | :------------: | :-------------: |

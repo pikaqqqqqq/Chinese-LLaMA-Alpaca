@@ -7,16 +7,16 @@
 | 测试任务         |                详细样例                | 样例数 | 中文Alpaca-7B | 中文Alpaca-13B | 中文Alpaca-Plus-7B |
 | ---------------- | :------------------------------------: | :----: | :-----------: | :------------: | :----------------: |
 | **💯总平均分**    |                   -                    |  200   |     65.3      |      70.9      |     **👍🏻75.3**     |
-| 知识问答         |            [QA.md](./QA.md)            |   20   |      66       |       74       |      **👍🏻80**      |
-| 开放式问答       |           [OQA.md](./OQA.md)           |   20   |   **👍🏻79**    |       74       |      **👍🏻78**      |
-| 数值计算、推理   |     [REASONING.md](./REASONING.md)     |   20   |      31       |    **👍🏻50**    |         45         |
-| 诗词、文学、哲学 |    [LITERATURE.md](./LITERATURE.md)    |   20   |      68       |       73       |      **👍🏻76**      |
-| 音乐、体育、娱乐 | [ENTERTAINMENT.md](./ENTERTAINMENT.md) |   20   |      68       |       74       |      **👍🏻79**      |
-| 写信、写文章     |    [GENERATION.md](./GENERATION.md)    |   20   |      76       |    **👍🏻81**    |      **👍🏻81**      |
-| 文本翻译         |   [TRANSLATION.md](./TRANSLATION.md)   |   20   |      76       |       78       |      **👍🏻82**      |
-| 多轮交互         |      [DIALOGUE.md](./DIALOGUE.md)      |   20   |   **👍🏻83**    |       73       |      **👍🏻84**      |
-| 代码编程         |          [CODE.md](./CODE.md)          |   20   |      57       |    **👍🏻64**    |         59         |
-| 伦理、拒答       |        [ETHICS.md](./ETHICS.md)        |   20   |      49       |       68       |      **👍🏻89**      |
+| 知识问答         |            [QA.md](QA.md)            |   20   |      66       |       74       |      **👍🏻80**      |
+| 开放式问答       |           [OQA.md](OQA.md)           |   20   |   **👍🏻79**    |       74       |      **👍🏻78**      |
+| 数值计算、推理   |     [REASONING.md](REASONING.md)     |   20   |      31       |    **👍🏻50**    |         45         |
+| 诗词、文学、哲学 |    [LITERATURE.md](LITERATURE.md)    |   20   |      68       |       73       |      **👍🏻76**      |
+| 音乐、体育、娱乐 | [ENTERTAINMENT.md](ENTERTAINMENT.md) |   20   |      68       |       74       |      **👍🏻79**      |
+| 写信、写文章     |    [GENERATION.md](GENERATION.md)    |   20   |      76       |    **👍🏻81**    |      **👍🏻81**      |
+| 文本翻译         |   [TRANSLATION.md](TRANSLATION.md)   |   20   |      76       |       78       |      **👍🏻82**      |
+| 多轮交互         |      [DIALOGUE.md](DIALOGUE.md)      |   20   |   **👍🏻83**    |       73       |      **👍🏻84**      |
+| 代码编程         |          [CODE.md](CODE.md)          |   20   |      57       |    **👍🏻64**    |         59         |
+| 伦理、拒答       |        [ETHICS.md](ETHICS.md)        |   20   |      49       |       68       |      **👍🏻89**      |
 
 说明：
 

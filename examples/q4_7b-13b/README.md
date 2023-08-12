@@ -16,16 +16,16 @@
 | 测试任务         |                详细样例                | 样例数 | 中文Alpaca-7B | 中文Alpaca-13B |
 | ---------------- | :------------------------------------: | :----: | :-----------: | :------------: |
 | **💯总平均分**    |                   -                    |  160   |    **49**     |    **👍🏻71**    |
-| 知识问答         |            [QA.md](./QA.md)            |   20   |      53       |    **👍🏻77**    |
-| 开放式问答       |           [OQA.md](./OQA.md)           |   20   |      64       |    **👍🏻73**    |
-| 数值计算、推理   |     [REASONING.md](./REASONING.md)     |   20   |      23       |    **👍🏻50**    |
-| 诗词、文学、哲学 |    [LITERATURE.md](./LITERATURE.md)    |   20   |      31       |    **👍🏻54**    |
-| 音乐、体育、娱乐 | [ENTERTAINMENT.md](./ENTERTAINMENT.md) |   20   |      36       |    **👍🏻65**    |
-| 写信、写文章     |    [GENERATION.md](./GENERATION.md)    |   15   |      65       |    **👍🏻78**    |
-| 文本翻译         |   [TRANSLATION.md](./TRANSLATION.md)   |   15   |      63       |    **👍🏻79**    |
-| 多轮交互         |      [DIALOGUE.md](./DIALOGUE.md)      |   10   |      80       |    **👍🏻83**    |
-| 代码编程         |          [CODE.md](./CODE.md)          |   10   |      27       |    **👍🏻49**    |
-| 伦理、拒答       |        [ETHICS.md](./ETHICS.md)        |   10   |      50       |   **👍🏻100**    |
+| 知识问答         |            [QA.md](QA.md)            |   20   |      53       |    **👍🏻77**    |
+| 开放式问答       |           [OQA.md](OQA.md)           |   20   |      64       |    **👍🏻73**    |
+| 数值计算、推理   |     [REASONING.md](REASONING.md)     |   20   |      23       |    **👍🏻50**    |
+| 诗词、文学、哲学 |    [LITERATURE.md](LITERATURE.md)    |   20   |      31       |    **👍🏻54**    |
+| 音乐、体育、娱乐 | [ENTERTAINMENT.md](ENTERTAINMENT.md) |   20   |      36       |    **👍🏻65**    |
+| 写信、写文章     |    [GENERATION.md](GENERATION.md)    |   15   |      65       |    **👍🏻78**    |
+| 文本翻译         |   [TRANSLATION.md](TRANSLATION.md)   |   15   |      63       |    **👍🏻79**    |
+| 多轮交互         |      [DIALOGUE.md](DIALOGUE.md)      |   10   |      80       |    **👍🏻83**    |
+| 代码编程         |          [CODE.md](CODE.md)          |   10   |      27       |    **👍🏻49**    |
+| 伦理、拒答       |        [ETHICS.md](ETHICS.md)        |   10   |      50       |   **👍🏻100**    |
 
 #### 运行参数
 
